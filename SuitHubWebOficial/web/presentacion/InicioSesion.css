@@ -1,0 +1,140 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header{
+  padding: 10px 0;
+  background-color: #060504;
+}
+
+nav{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav a{
+  margin-left: 25px;
+  font-size: 1.3rem;
+  color: #d6a77d;
+  transition: .4s;
+}
+
+nav a:hover{
+  color: #fff;
+}
+
+nav a i{
+  margin-left: 40px;
+  font-size: 2rem;
+}
+
+body{
+	background-color: #000000;
+}
+
+aside {
+	padding-top: 5%;
+	padding-left: 10%;
+	padding-bottom: 1%;
+	color: #ffffff;
+}
+
+form {
+	font-family: 'Roboto', sans-serif;
+}
+
+form h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 42pt;
+}
+
+form h5 {
+	font-size: 14pt;
+	margin: 1%;
+}
+
+#box {
+	width: 50%;
+	height: 25px;
+}
+
+h6 {
+	margin: 1%;
+}
+
+#checkboxs {
+	float: left;
+}
+
+p{
+	font-size: 11pt;
+	position: relative;
+	left: 1%;
+}
+
+a{
+	font-size: 11pt;
+	left: 32%;
+}
+
+#inicio {
+	font-family: 'Playfair Display', serif;
+	font-size: 18pt;
+	margin-top: 3%;
+	margin-bottom: 1%;
+	width: 50%;
+	height: 50px;
+	background: #fbceb1;
+}
+
+#inicio:hover{
+	font-family: 'Roboto', serif;
+	font-size: 16pt;
+	margin-top: 3%;
+	margin-bottom: 1%;
+	width: 50%;
+	height: 50px;
+	background: #007fff;
+}
+
+#inicioGoogle{
+	font-family: 'Roboto', serif;
+	font-weight: bold;
+	font-size: 10pt;
+	margin-top: 1%;
+	margin-bottom: 5%;
+	width: 25%;
+	height: 35px;
+	background: #fbceb1;
+}
+
+#inicioFacebook{
+	font-family: 'Roboto', serif;
+	font-weight: bold;
+	font-size: 10pt;
+	margin-top: 1%;
+	margin-bottom: 5%;
+	width: 25%;
+	height: 35px;
+	background: #fbceb1;
+}
+
+#2 {
+	position: absolute;
+	top: 1%;
+}
+
+section #imagen{
+	position: absolute;
+	top: 20%;
+	left: 55%;
+	width: 600px;
+	height: 550px;
+}
