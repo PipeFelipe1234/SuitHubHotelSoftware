@@ -7,6 +7,7 @@
 <%@page import="clases.MedioDePago"%>
 <%
     String accion=request.getParameter("accion");
+    //comentario yerson
     String id="Sin generar";
     String nombre="";
     String descripcion="";
